@@ -6,3 +6,7 @@
 5. git push [repo_link] [branch_name]
 6. git reset  // откатывает измененные файлы из stage (после команды add)
 6.1. git reset --hard // отменяет изменения в том числе в коде (откатывает до версии, которая была в комите)
+
+7. git branch // Показывает ветки.
+7.1. git branch [branch_name] // создает ветку develop
+8. git checkout [branch_name] // переключает на другую ветку (например с mster на develop)
